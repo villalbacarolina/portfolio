@@ -1,0 +1,61 @@
+section {
+    background-color: #7cc3ea;
+    padding: 5%;
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sniglet', system-ui;
+}
+
+img{
+    position: absolute;
+    right: 0;
+    transform: translateX(40%) !important;
+    transform: translateY(50%);
+    width: 50vw; 
+    height: auto; 
+}
+
+.experience{
+    text-align: center;
+}
+
+h6{
+    font-weight: 600;
+}
+
+p{
+    margin: 0;
+}
+
+
+.information {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    margin-bottom: 10px; /* Ajusta según tus necesidades */
+}
+
+.information p {
+    margin: 0; /* Quita el margen en los elementos p dentro de .information */
+}
+
+.description {
+    text-align: center; /* Centra el texto en la descripción */
+    width: 30%;
+    margin: 0 auto; /* Centra el bloque en el contenedor padre */
+}
+
+#space{
+    margin-right: 5px;
+}
+
+
+
