@@ -1,0 +1,35 @@
+section {
+    background-color: #7cc3ea;
+    padding: 5%;
+    color: aliceblue;
+}
+
+a{
+    color: #cceded;
+    text-decoration: none;
+    transition: font-size 0.1s ease; 
+}
+
+a:hover{
+    color: azure;
+    font-size: 1.05em;
+}
+
+h3,h4,h5,h6,p,a{
+    font-family: 'Sniglet', system-ui;
+}
+
+h6{
+    font-weight: 600;
+}
+
+img{
+    height: 50vh;
+}
+h6, a, p{
+    margin: 0%;
+}
+
+.education{
+    margin: 5%;
+}
