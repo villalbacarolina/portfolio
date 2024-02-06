@@ -16,6 +16,7 @@ h3 {
 
 img {
     width: 110vw;
+    height: 20vw;
     transform: translateX(-5vw) !important;
     background-color: #7cc3ea;
 }
