@@ -1,0 +1,44 @@
+section{
+    background-color: #7cc3ea;
+    position: relative;
+}
+
+.image-container {
+    position: absolute;
+    position: relative;
+    display: inline-block;
+    color: #7cc3ea;
+    text-align: center; 
+  }
+  
+.hover-image {
+    position: absolute;
+    width: 40vw;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+  
+.image-container:hover .hover-image {
+    opacity: 1;
+}
+  
+.original-image {
+    display: block;
+    width: 40vw;
+    height: auto;
+}
+  
+#cloud1{
+    transform: translate(30%, 35%);
+}
+
+#cloud2{
+    transform: translate(20%, 35%);
+}
+
+#cloud3{
+    transform: translate(73%, -10%);
+}
+  

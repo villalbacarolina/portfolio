@@ -18,6 +18,16 @@ a:hover{
 
 h6{
     font-weight: 600;
+    
+}
+
+h3{
+    font-family: 'KawaiiBubble', sans-serif;
+    font-size: 2em;
+}
+
+h4{
+    font-weight: 600;
 }
 
 h6, a, p{
@@ -26,4 +36,15 @@ h6, a, p{
 
 .education{
     margin: 5%;
+}
+
+.education, .certificate, #university, #certifications {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.education{
+    margin-top:2%;
+    margin-bottom:2%;
 }

@@ -22,14 +22,8 @@ img {
     height: auto; /* Para mantener la proporción de la imagen */
     display: block; /* Elimina el espacio adicional debajo de la imagen */
 }
-h3{
-    font-family: 'KawaiiBubble', sans-serif;
-    font-size: 1.5em;
-    
-}
 p{
     font-family: 'Sniglet', system-ui;
-    font-size: 80%;
     margin-bottom: 0px;
 }
 a{
@@ -46,6 +40,12 @@ a{
     color: #7cc3ea;
     font-size: 2vw; /* Utiliza unidades de vista (vw) para hacer el texto responsive */
     text-align: center;
+    font-size: 1em;
+}
+
+h3{
+    font-family: 'KawaiiBubble', sans-serif;
+    font-size: 2em !important;
 }
 
 @media (max-width: 768px) {

@@ -1,4 +1,4 @@
-body, h1, h2, h3, p, img {
+h4, img {
     margin: 0;
     padding: 0;
 }
@@ -9,9 +9,17 @@ section {
     color: #7cc3ea;
     font-family: 'Sniglet', system-ui;
 }
-
+ /*68a4c4*/
 h3 {
-    color: #68a4c4;
+    color: #7cc3ea;
+    font-family: 'KawaiiBubble', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+h4{
+    font-size: 1.3em;
 }
 
 img {
