@@ -26,9 +26,23 @@ a {
     text-decoration: none;
     color: #ffffff; 
     font-size: 1em;
+    
+}
+
+a:hover {
+    animation: enlargeAndShrink 4s ease-in-out forwards;
 }
 
 img {
     width: 100vw;
     display: block; 
+}
+
+@keyframes enlargeAndShrink {
+    0%, 100% {
+        font-size: 1em; 
+    }
+    50% {
+        font-size: 1.13em; 
+    }
 }
