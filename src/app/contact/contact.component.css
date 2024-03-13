@@ -1,0 +1,34 @@
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #7cc3ea;
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15%;
+}
+
+h3 {
+    font-family: 'KawaiiBubble', sans-serif;
+    font-size: 1.8em;
+    margin: 0; 
+}
+
+a {
+    font-family: 'Sniglet', system-ui;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 1em;
+}
+
+img {
+    width: 100vw;
+    display: block; 
+}

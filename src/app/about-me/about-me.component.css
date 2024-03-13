@@ -27,10 +27,12 @@ p{
     margin-bottom: 0px;
 }
 a{
-    margin: 0px;
-    padding: 0px;
     font-family: 'Sniglet', system-ui;
     font-weight: 700;
+    font-size: 1em; 
+    text-decoration: none;
+    animation: enlargeAndShrink 4s infinite ease-in-out;
+    color: #7cc3ea;
 }
 .text {
     position: absolute;
@@ -41,6 +43,7 @@ a{
     font-size: 2vw; /* Utiliza unidades de vista (vw) para hacer el texto responsive */
     text-align: center;
     font-size: 1em;
+    
 }
 
 h3{
@@ -53,6 +56,15 @@ h3{
         width: 93vw;
     }
     p{
-        font-size: 120%;
+        font-size: 0.8em;
+    }
+}
+
+@keyframes enlargeAndShrink {
+    0%, 100% {
+        font-size: 1em; 
+    }
+    50% {
+        font-size: 1.13em; 
     }
 }
