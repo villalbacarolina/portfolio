@@ -1,3 +1,11 @@
+/*cursor*/
+
+* {
+    cursor: url('assets/cursor.png'), auto !important;
+}
+
+/*fonts*/
+
 @font-face {
     font-family: 'SweetieBubbleGum';
     src: url('assets/fonts/SweetieBubbleGum-Regular.ttf') format('truetype');
