@@ -25,6 +25,7 @@ img{
     text-align: center;
 }
 
+
 h6{
     font-weight: 600;
     margin: 0%;
@@ -40,19 +41,20 @@ p{
 
 .information {
     display: flex;
-    justify-content: center; /* Centra los elementos horizontalmente */
-    align-items: center; /* Centra los elementos verticalmente */
-    margin-bottom: 10px; /* Ajusta según tus necesidades */
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 10px; 
 }
 
 .information p {
-    margin: 0; /* Quita el margen en los elementos p dentro de .information */
+    margin: 0; 
 }
 
-.description {
-    text-align: center; /* Centra el texto en la descripción */
-    width: 30%;
-    margin: 0 auto; /* Centra el bloque en el contenedor padre */
+.description { 
+    text-align: left;
+    transform: translateX(-8%);
+    width: 80%;
+    margin: 0 auto; 
 }
 
 #space{

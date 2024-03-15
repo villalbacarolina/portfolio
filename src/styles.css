@@ -8,3 +8,7 @@
     src: url('assets/fonts/KawaiiBubble-Regular.ttf') format('truetype'); 
 }
 
+* {
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: blue orange;   /* scroll thumb and track */
+  }
