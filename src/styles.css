@@ -1,15 +1,8 @@
-
-
 body{
     overflow-x: hidden;
 }
 
 /*fonts*/
-
-@font-face {
-    font-family: 'SweetieBubbleGum';
-    src: url('assets/fonts/SweetieBubbleGum-Regular.ttf') format('truetype');
-}
 
 @font-face {
     font-family: 'KawaiiBubble'; 

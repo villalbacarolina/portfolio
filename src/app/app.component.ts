@@ -8,13 +8,14 @@ import { HeaderComponent } from "./header/header.component";
 import { AboutMeComponent } from "./about-me/about-me.component";
 import { ContactComponent } from "./contact/contact.component";
 import { ProjectsComponent } from "./projects/projects.component";
+import { NavbarComponent } from "./navbar/navbar.component";
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [RouterOutlet, EducationComponent, ExperienceComponent, TechnologiesComponent, SoftSkillsComponent, HeaderComponent, AboutMeComponent, ContactComponent, ProjectsComponent]
+    imports: [RouterOutlet, EducationComponent, ExperienceComponent, TechnologiesComponent, SoftSkillsComponent, HeaderComponent, AboutMeComponent, ContactComponent, ProjectsComponent, NavbarComponent]
 })
 export class AppComponent {
   title = 'front-end';

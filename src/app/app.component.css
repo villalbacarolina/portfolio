@@ -1,0 +1,6 @@
+
+  
+  #about-me, #header, #education, #experience, #technologies, #soft-skills, #projects, #contact
+    {
+        transition: all 3s ease !important;
+      }
