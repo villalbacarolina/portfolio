@@ -1,7 +1,9 @@
-/*cursor*/
-
 * {
     cursor: url('assets/cursor.png'), auto !important;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 /*fonts*/
